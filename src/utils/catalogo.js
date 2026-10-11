@@ -22,7 +22,8 @@ export function esJuegoValido(juego) {
     CATEGORIAS.includes(juego.categoria) && Number.isSafeInteger(juego.precio) &&
     juego.precio > 0 && juego.precio <= 9999999 &&
     typeof juego.descripcion === 'string' && juego.descripcion.trim().length >= 10 && juego.descripcion.length <= 300 &&
-    Object.values(PORTADAS).includes(juego.imagen) && juego.plataforma === 'PC';
+    Object.values(PORTADAS).includes(juego.imagen) && juego.plataforma === 'PC' &&
+    typeof juego.etiqueta === 'string' && juego.etiqueta.length <= 30;
 }
 
 export function cargarCatalogo(almacenamiento, iniciales) {

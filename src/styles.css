@@ -73,8 +73,8 @@ h2 { font-size: 33px; line-height: 1.2; font-weight: 730; letter-spacing: -1px; 
 .platform-badge { position: absolute; bottom: 10px; right: 10px; border: 1px solid #ffffff35; background: #11192ccc; padding: 1px 7px; font-size: 9px; border-radius: 4px; }
 .card-body { padding: 19px 18px 16px; }
 .game-category { color: var(--lime); font-size: 10px; margin-bottom: 6px; font-weight: 600; }
-.card-title { font-size: 18px; font-weight: 680; letter-spacing: -.4px; margin-bottom: 9px; }
-.game-description { color: #abb7c9; font-size: 12px; line-height: 1.7; margin-bottom: 20px; }
+.card-title { font-size: 18px; font-weight: 680; letter-spacing: -.4px; margin-bottom: 9px; overflow-wrap: anywhere; }
+.game-description { color: #abb7c9; font-size: 12px; line-height: 1.7; margin-bottom: 20px; overflow-wrap: anywhere; }
 .game-bottom { display: flex; justify-content: space-between; align-items: end; gap: 10px; padding-top: 13px; border-top: 1px solid var(--border); }
 .price-caption { font-size: 8px; letter-spacing: 1.3px; color: #9aa9bf; }
 .game-price { font-size: 19px; font-weight: 720; margin: 0; line-height: 1.35; }
