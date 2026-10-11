@@ -126,6 +126,7 @@ textarea { resize: vertical; min-height: 100px; }
 .confirmation p { margin-bottom: 12px; }
 .management-notice { margin-top: 16px; margin-bottom: 0; font-size: 13px; color: var(--lime); }
 .management-notice:empty { display: none; }
+.management-notice, .confirmation, .toast-notice { overflow-wrap: anywhere; }
 .storage-warning { color: #f2d99d; font-size: 13px; }
 .site-footer { padding: 35px 0; border-top: 1px solid #293142; background: #0c1019; }
 .footer-grid { display: flex; justify-content: space-between; gap: 25px; align-items: center; }
