@@ -1,0 +1,16 @@
+{
+  "name": "checkpoint-pfy2201-eft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tienda de videojuegos con React y Bootstrap 5 para Desarrollo Frontend I",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/build.mjs --serve",
+    "start": "npm run dev",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": { "bootstrap": "5.3.8", "react": "19.3.0", "react-dom": "19.3.0" },
+  "devDependencies": { "esbuild": "0.28.2" }
+}
